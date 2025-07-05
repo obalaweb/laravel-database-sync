@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDatabaseSync\Contracts;
+namespace Obalaweb\LaravelDatabaseSync\Contracts;
 
 interface SyncableModelInterface
 {

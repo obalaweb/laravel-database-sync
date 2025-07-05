@@ -1,8 +1,8 @@
 <?php
 
-namespace LaravelDatabaseSync\Traits;
+namespace Obalaweb\LaravelDatabaseSync\Traits;
 
-use LaravelDatabaseSync\Contracts\SyncableModelInterface;
+use Obalaweb\LaravelDatabaseSync\Contracts\SyncableModelInterface;
 
 trait SyncableModel
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDatabaseSync\Services;
+namespace Obalaweb\LaravelDatabaseSync\Services;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;

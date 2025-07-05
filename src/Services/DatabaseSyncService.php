@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDatabaseSync\Services;
+namespace Obalaweb\LaravelDatabaseSync\Services;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Log;

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelDatabaseSync\Commands;
+namespace Obalaweb\LaravelDatabaseSync\Commands;
 
 use Illuminate\Console\Command;
-use LaravelDatabaseSync\Services\ModelDiscoveryService;
-use LaravelDatabaseSync\Services\AutoSyncService;
+use Obalaweb\LaravelDatabaseSync\Services\ModelDiscoveryService;
+use Obalaweb\LaravelDatabaseSync\Services\AutoSyncService;
 
 class DatabaseSyncCommand extends Command
 {

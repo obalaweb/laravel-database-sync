@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelDatabaseSync;
+namespace Obalaweb\LaravelDatabaseSync;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Event;
-use LaravelDatabaseSync\Services\DatabaseSyncService;
-use LaravelDatabaseSync\Services\ModelDiscoveryService;
-use LaravelDatabaseSync\Services\AutoSyncService;
-use LaravelDatabaseSync\Commands\DatabaseSyncCommand;
+use Obalaweb\LaravelDatabaseSync\Services\DatabaseSyncService;
+use Obalaweb\LaravelDatabaseSync\Services\ModelDiscoveryService;
+use Obalaweb\LaravelDatabaseSync\Services\AutoSyncService;
+use Obalaweb\LaravelDatabaseSync\Commands\DatabaseSyncCommand;
 
 class DatabaseSyncServiceProvider extends ServiceProvider
 {

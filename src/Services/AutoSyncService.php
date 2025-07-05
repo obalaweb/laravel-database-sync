@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelDatabaseSync\Services;
+namespace Obalaweb\LaravelDatabaseSync\Services;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
-use LaravelDatabaseSync\Contracts\SyncableModelInterface;
+use Obalaweb\LaravelDatabaseSync\Contracts\SyncableModelInterface;
 
 class AutoSyncService
 {
